@@ -1,0 +1,54 @@
+/*teblet layout*/
+@media only screen and (min-width:200px) and (max-width:991px){
+    .social-area{max-width: 480px;padding-top: 15px;}
+    .inner-menu {background: none; min-height: auto;}
+    .inner-menu::after {display: none;}
+    .mean-container .mean-nav {margin-top: 0;width: 80%;}
+    .inner-header {padding: 10px 0;}
+    #hero-area {margin-top: 0;padding-bottom: 50px;}
+    .hero-content{width: 33%;}
+    .hero-content h1 {font-size: 50px;margin-top: 50px;}
+    #work-area {padding:0;}
+    .child-work h2 {font-size: 20px;font-weight: bold;margin-bottom: 30px;}
+    .child-service .service-text {width: 72%;}
+    .child-testimonial {margin-bottom: 10px;}
+    #footer-area {padding:0;}
+}
+/*mobile layout*/
+@media only screen and (min-width:200px) and (max-width:600px){
+   .mini-menu {margin-bottom: 10px;width: 100%;}
+    .mini-menu ul, .social-area ul {text-align: center;}
+    .search-area, .logo-area {width: 55%;float: none;margin: 0 auto;}
+    .social-area ul li {margin: 0 5px;}
+    .bx-wrapper {height: auto !important;}
+    #hero-area {padding-bottom: 10px;}
+    .hero-content {width: 100%;float: none;}
+    .hero-content h1 {font-size: 30px;text-align: center;}
+    .hero-content p {font-size: 16px;}
+    .child-work {width: 96%;}
+    .child-work h2 {text-align: center;font-size: 25px;margin-bottom: 20px;}
+    .child-work p {font-size: 16px;}
+    .child-footer {width: 96%; margin: 0;}
+    .child-footer h3 {border: none;text-align: center;font-size: 20px;font-weight: bold;}
+    .child-footer h4{font-size: 20px;margin: 5px 0;}
+    .child-footer h6, .child-footer p {font-size: 16px;}
+    .child-footer textarea {width: 95%; margin-bottom: 10px;}
+    .child-footer [type="submit"] {width:50%;padding: 10px; font-size: 20px;}
+    .left-copyright, .right-copyright {width: 100%;float: none;
+}
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
